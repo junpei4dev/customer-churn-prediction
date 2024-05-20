@@ -1,0 +1,17 @@
+Accuracy: 0.82
+Cross-validation scores: [0.80766501 0.80837473 0.78495387 0.80184659 0.79829545]
+Mean CV score: 0.80
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88      1036
+           1       0.68      0.59      0.63       373
+
+    accuracy                           0.82      1409
+   macro avg       0.77      0.74      0.76      1409
+weighted avg       0.81      0.82      0.81      1409
+
+Confusion matrix:
+[[935 101]
+ [154 219]]
+Model saved as: results/model_SVM_20240520_143603.pkl
