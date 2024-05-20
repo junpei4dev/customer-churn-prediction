@@ -7,9 +7,3 @@ WORKDIR /app
 # 必要なパッケージのインストール
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-
-# アプリケーションのコピー
-COPY . .
-
-# コンテナのエントリーポイント
-CMD ["python", "main.py"]

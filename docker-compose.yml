@@ -6,6 +6,8 @@ services:
     volumes:
       - ./data:/app/data
       - ./results:/app/results
+      - ./src:/app/src
+      - ./main.py:/app/main.py
     environment:
       - PYTHONUNBUFFERED=1
     command: ["python", "main.py"]
