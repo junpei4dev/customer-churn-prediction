@@ -1,0 +1,17 @@
+Accuracy: 0.80
+Cross-validation scores: [0.80695529 0.80908446 0.78211498 0.80539773 0.80539773]
+Mean CV score: 0.80
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.91      0.87      1036
+           1       0.67      0.52      0.58       373
+
+    accuracy                           0.80      1409
+   macro avg       0.75      0.71      0.73      1409
+weighted avg       0.79      0.80      0.80      1409
+
+Confusion matrix:
+[[940  96]
+ [180 193]]
+Model saved as: results/model_RandomForest_20240520_143603.pkl
